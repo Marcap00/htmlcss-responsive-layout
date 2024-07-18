@@ -18,9 +18,31 @@
 
     .card-recipe .fa-ul li {
         flex-basis: calc(100% / 3 - 20px / 3);
-        
+    }
+
+    .social {
+        justify-content: space-between;
+        padding: 1rem 10px;
+    }
+
+    .social .btn {
+        padding: 10px 50px;
     }
     
+    .banner {
+        display: inline-block;
+    }
+
+    .card-image img {
+        max-width: 100%;
+    }
+
+    .card-image {
+        width: 50%;
+        display: block;
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 
@@ -41,4 +63,17 @@
     .card-recipe {
         flex-basis: 40%;
     }
+
+    .social .btn {
+        padding: 10px 25px;
+    }
+
+    .name-social {
+        display: inline;
+    }
+
+    .presentation h3{
+        font-size: 24px;
+    }
+
 }
