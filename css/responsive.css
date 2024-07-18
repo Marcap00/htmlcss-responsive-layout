@@ -5,5 +5,9 @@
         text-align: left;
         font-size: 36px;
     }
+
+    .title-hidden {
+        display: inline;
+    }
     
 }
