@@ -43,6 +43,11 @@
         float: left;
         margin-right: 10px;
     }
+
+    .row li {
+        flex-basis: 20%;
+    }
+    
 }
 
 
@@ -74,6 +79,24 @@
 
     .presentation h3{
         font-size: 24px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    footer .row {
+        gap: 20px;
+    }
+
+    .row li {
+        flex-basis: auto;
+    }
+
+    address {
+        margin-bottom: 0;
     }
 
 }

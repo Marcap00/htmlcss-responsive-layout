@@ -45,9 +45,25 @@ a {
     color: black;
 }
 
+ul {
+    list-style-type: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+footer {
+    color: white;
+    background-color: #7c69a4;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 15px;
 }
 
 /* Utils */
@@ -209,4 +225,25 @@ iframe {
 
 .presentation p {
     line-height: 26px;
+}
+
+/* Footer */
+.name {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer .row {
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 0 -0.5rem; */
+}
+
+.row li {
+    flex-basis: 25%;
+    padding: 1rem 0;
 }
