@@ -9,7 +9,7 @@
 /* Generics */
 header {
     padding: 15px;
-    border: 1px dashed black;
+    
 }
 
 main {
@@ -47,8 +47,25 @@ a {
     padding: 0 1rem;
 }
 
+.splitter {
+    border: 1px solid lightgrey;
+    margin: 15px 0;
+}
+
 .bg-orange {
     background-color: #fb9413;
+}
+
+.bg-lightgrey {
+    background-color: #f6f5f9;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 /* Button */
@@ -56,6 +73,7 @@ a {
     padding: 10px 15px;
     border-radius: 20px;
     font-weight: 600;
+    display: inline-block;
 }
 
 /* Layout */
@@ -65,7 +83,8 @@ a {
 }
 
 /* Header main */
-.header-main .row {
+.header-recipe .row,
+.wrapper .row {
     justify-content: space-between;
 }
 
@@ -90,4 +109,46 @@ a {
 
 .btn.bg-orange {
     color: white;
+    font-size: 14px;
+}
+
+/* Wrapper */
+.header-recipe {
+    margin-bottom: 20px;
+}
+
+.card-recipe {
+    background-color: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px lightgrey;
+}
+
+iframe {
+    width: 100%;
+    height: 365px;
+}
+
+.calories {
+    padding: 3px 6px;
+    background-color: #7b69a2;
+    border: 1px solid #7b69a2;
+    color: white;
+    border-radius: 3px;
+}
+
+.info{
+    color: #fb9413;
+    font-size: 18px;
+    font-weight: 600
+}
+
+
+.card-recipe .fa-ul li {
+    height: 26px;
+}
+
+.card-recipe .fa-ul i {
+    color: #fb9413;
 }

@@ -9,5 +9,36 @@
     .title-hidden {
         display: inline;
     }
+
+    .card-recipe .fa-ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card-recipe .fa-ul li {
+        flex-basis: calc(100% / 3 - 20px / 3);
+        
+    }
     
+}
+
+
+/* From 992px to up */
+@media screen and (min-width: 992px){
+    .wrapper {
+        display: flex;
+    }
+    
+    .card-recipe .fa-ul {
+        display: block;
+    }
+
+    iframe {
+        flex-basis: 60%;
+    }
+
+    .card-recipe {
+        flex-basis: 40%;
+    }
 }
