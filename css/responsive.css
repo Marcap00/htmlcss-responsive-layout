@@ -1,0 +1,9 @@
+/* From 768px to up  */
+@media screen and (min-width: 768px){
+
+    h1 {
+        text-align: left;
+        font-size: 36px;
+    }
+    
+}
